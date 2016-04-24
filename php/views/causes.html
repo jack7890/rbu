@@ -1,0 +1,90 @@
+<?php include('includes/header.inc.html'); ?>
+
+    <section id="causes-1" class="first">
+      <div class="row">
+        <div class="large-12 columns">
+          <h2>Featured Causes</h2>
+        </div>
+      </div>
+      <div class="row charities">
+        <div class="medium-4 columns">
+          <img src="<?php print $resPrefix ?>img/logos/charities/redcross.png" alt="American Red Cross">
+        </div>
+        <div class="medium-4 columns">
+          <img src="<?php print $resPrefix ?>img/logos/charities/unicef.png" alt="UNICEF">
+        </div>
+        <div class="medium-4 columns">
+          <img src="<?php print $resPrefix ?>img/logos/charities/cityofhope.png" alt="City of Hope">
+        </div>
+      </div>
+      <div class="row charities">
+        <div class="medium-4 columns">
+          <img src="<?php print $resPrefix ?>img/logos/charities/earthshare.png" alt="EarthShare">
+        </div>
+        <div class="medium-4 columns">
+          <img src="<?php print $resPrefix ?>img/logos/charities/donorschoose.png" alt="DonorsChoose.org">
+        </div>
+        <div class="medium-4 columns">
+          <img src="<?php print $resPrefix ?>img/logos/charities/charitywater.png" alt="charity: water">
+        </div>
+      </div>
+    </section>
+
+    <section id="causes-2">
+      <div class="row">
+        <div class="large-12 columns">
+          <h2>All Causes</h2>
+        </div>
+      </div>
+      <div class="row header show-for-medium-up">
+        <div class="medium-3 columns">
+          Category
+        </div>
+        <div class="medium-3 columns">
+          Name
+        </div>
+        <div class="medium-6 columns">
+          Description
+        </div>
+      </div>
+      <div class="row">
+        <div class="medium-3 columns">
+          <ul id="categories" class="show-for-medium-up">
+            <?php foreach ($categories as $name => $id) : ?>
+              <li <?php if ($id === $selCause) : ?>class="selected"<?php endif ?>>
+                <a href="<?php print $linkPrefix ?>causes/<?php print $id ?>/">
+                  <?php print htmlentities($name) ?>
+                </a>
+              </li>
+            <?php endforeach ?>
+          </ul>
+          <select id="categories-mobile" class="show-for-small-only">
+            <?php foreach ($categories as $name => $id) : ?>
+              <option value="<?php print $linkPrefix ?>causes/<?php print $id ?>/">
+                <?php print $name ?>
+              </option>
+            <?php endforeach ?>
+          </select>
+        </div>
+        <div id="causes" class="medium-9 columns">
+          <div class="cause-container">
+            <?php foreach ($causes as $cause) : ?>
+              <div class="row">
+                <?php if ($cause[Causes::URL_IDX]) : ?>
+                  <div class="medium-4 columns">
+                    <a href="<?php print $cause[Causes::URL_IDX] ?>" target="_blank">
+                      <?php print $cause[Causes::NAME_IDX] ?>
+                    </a>
+                  </div>
+                <?php else : ?>
+                  <div class="medium-4 columns"><?php print $cause[Causes::NAME_IDX] ?></div>
+                <?php endif ?>
+                <div class="medium-8 columns"><?php print $cause[Causes::DESC_IDX] ?></div>
+              </div>
+            <?php endforeach ?>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<?php include('includes/footer.inc.html'); ?>

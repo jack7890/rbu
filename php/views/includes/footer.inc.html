@@ -1,0 +1,29 @@
+    <footer>
+      <div class="row">
+        <div class="medium-12 columns">
+          <div class="copyright">
+            <span>&copy; <?php print date('Y') ?></span> RaisedBy.Us
+          </div>
+          <div class="legal">
+            <a href="<?php print $linkPrefix ?>terms/">Terms of Use</a>
+            <a href="<?php print $linkPrefix ?>privacy/">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a class="exit-off-canvas"></a>
+
+    </div>
+    </div>
+
+    <script src="<?php print $resPrefix ?>js/vendor/jquery.js"></script>
+    <script src="<?php print $resPrefix ?>js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <?php foreach ($scripts as $script) : ?>
+      <script src="<?php print $resPrefix . $script ?>"></script>
+    <?php endforeach ?>
+  </body>
+</html>

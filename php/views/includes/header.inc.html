@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RaisedBy.Us | <?php print $title ?></title>
+    <link rel="icon" type="image/png" href="<?php print $resPrefix ?>favicon.png" />
+    <link rel="stylesheet" href="<?php print $resPrefix ?>css/foundation.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php print $resPrefix ?>css/rbu.css" />
+    <script src="<?php print $resPrefix ?>js/vendor/modernizr.js"></script>
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-48362904-1', 'raisedby.us');
+    ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+  </head>
+  <body>
+
+  <div class="off-canvas-wrap">
+    <div class="inner-wrap">
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><a href="<?php print $linkPrefix ?>/">Home</a></li>
+        <li><a href="<?php print $linkPrefix ?>workplace-giving/">Workplace Giving</a></li>
+        <li><a href="<?php print $linkPrefix ?>education/">Education Programs</a></li>
+        <li><a href="<?php print $linkPrefix ?>ambassadors/">Ambassador Programs</a></li>
+        <li><a href="<?php print $linkPrefix ?>causes/">Causes</a></li>
+        <li><a href="<?php print $linkPrefix ?>faq/">FAQ</a></li>
+        <li><a href="<?php print $linkPrefix ?>get-involved/">Get Involved</a></li>
+      </ul>
+    </aside>
+
+    <header>
+      <div class="row">
+        <div class="small-4 columns">
+          <h1><a href="<?php print $linkPrefix ?>" class="red">Raisedby.Us</a></h1>
+        </div>
+        <div class="small-8 columns clearfix">
+          <nav id="main-nav" class="show-for-large-up">
+            <ul class="right">
+              <li id="nav-what-we-do">
+                <a href="#" data-dropdown="dd-what-we-do">What We Do <i class="fa fa-angle-down"></i></a>
+                <ul id="dd-what-we-do" class="f-dropdown" data-dropdown-content>
+                  <li><a href="<?php print $linkPrefix ?>workplace-giving/">Workplace Giving</a></li>
+                  <li><a href="<?php print $linkPrefix ?>education/">Education Programs</a></li>
+                  <li><a href="<?php print $linkPrefix ?>ambassadors/">Ambassador Programs</a></li>
+                </ul>
+              </li>
+              <li id="nav-causes">
+                <a href="<?php print $linkPrefix ?>causes/" <?php if ($path === '/causes') : ?>class="active"<?php endif ?> >Causes</a>
+              </li>
+              <li id="nav-faq">
+                <a href="<?php print $linkPrefix ?>faq/" <?php if ($path === '/faq') : ?>class="active"<?php endif ?> >FAQ</a>
+              </li>
+              <?php if ($showGetInvolved) : ?>
+              <li id="nav-get-involved">
+                <a href="<?php print $linkPrefix ?>get-involved/">Get Involved</a>
+              </li>
+              <?php endif ?>
+              <li id="nav-icons">
+                <a href="https://www.facebook.com/sharer/sharer.php?<?php print $socialLinkParams['facebook'] ?>" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/share?<?php print $socialLinkParams['twitter'] ?>" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/share?<?php print $socialLinkParams['google'] ?>" target="_blank"><i class="fa fa-google-plus"></i></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="mobile-nav hide-for-large-up right right-off-canvas-toggle">
+            <i class="fa fa-bars"></i>
+          </div>
+        <div>
+      </div>
+    </header>
