@@ -71,212 +71,120 @@
         <div>
       </div>
     </header>
-
-    <section id="homepage-1" class="first notch">
-      <div class="row">
-        <div class="large-10 large-offset-1 columns">
-          <h2>
-            A giving program for startups that allows<br class="res">
-            employees to give a little bit of their paycheck<br class="res">
-            to the cause of their choice.
-          </h2>
-        </div>
-      <div class="row">
-        <div class="medium-4 medium-offset-4 columns">
-          <a href="/get-involved/" class="button">Get Involved</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="homepage-2">
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="circle-hdr">Our Impact</div>
-        </div>
-      </div>
-      <div class="row impact-1">
-        <div class="medium-4 columns h2">
-          <span>$203,258</span><br>pledged
-        </div>
-        <div class="medium-4 columns h2">
-          &hellip;from <span>393</span><br>employees
-        </div>
-        <div class="medium-4 columns h2">
-          &hellip;at <span>6</span><br>startups
-        </div>
-      </div>
-      <div class="row impact-2">
-        <div class="medium-12 columns h2">
-          &hellip;for over <span>100</span> charities.
-        </div>
-      </div>
-    </section>
-
-    <section id="homepage-3" class="notch">
-      <div class="row">
-        <div class="large-12 columns">
-          <h2>The Startups</h2>
-        </div>
-        <div class="row logos">
-          <div class="medium-4 columns">
-            <img src="web/content/img/logos/foursquare.png" alt="foursquare">
+    <div class="volunteer">
+      <section id="volunteer-1" class="first notch">
+        <div class="row">
+          <div class="large-8 large-offset-2 columns">
+            <h5 class="h5">Your company has a lot to give.</h5>
+            <h2 class="h2">
+               We make volunteering easy for you and your employees.
+            </h2>
           </div>
-          <div class="medium-4 columns">
-            <img src="web/content/img/logos/mongodb.png" alt="MongoDB">
-          </div>
-          <div class="medium-4 columns">
-            <img src="web/content/img/logos/sailthru.png" alt="Sailthru">
+        <div class="row">
+          <div class="medium-6 medium-offset-3 columns top-input">
+            <button href="/get-involved/" class="button">Apply Now</button>
           </div>
         </div>
-        <div class="row logos">
-          <div class="medium-4 columns">
-            <img src="web/content/img/logos/shutterstock.png" alt="Shutterstock">
+      </section>
+      
+      <section id="volunteer-2" class="section">
+        <div class="row">
+          <div class="large-8 large-offset-2 columns">
+            <h2 class="h2">No time to organize volunteer opportunities for your team?</h2>
+            <h4 class="h4">The RaisedBy.Us Volunteer Program does the work for you. The annual subscription includes:</h4>
           </div>
-          <div class="medium-4 columns">
-            <img src="web/content/img/logos/thrillist.png" alt="Thrillist">
+        <div class="row programs">
+          <div class="medium-6 columns">
+            <div class="col-padding">
+              <div class="step">1</div>
+              <p class="p">Access to specially created events, where your employees will do good and meet other startups.</p>
+            </div>
           </div>
-          <div class="medium-4 columns">
-            <img src="web/content/img/logos/contently.png" alt="Contently">
-          </div>
-        </div>
-      </div>
-    </section>
-
-<?php /* ?>
-    <section id="homepage-4">
-      <div class="row">
-        <div class="medium-12 columns">
-          <div class="quote-panel">
-            <div class="row">
-              <div class="medium-6 medium-offset-1 columns">
-                <div class="valign-wrapper">
-                  <div class="quote valign">
-                    <blockquote>We love the impact RaisedBy.Us<br class="res"> has had on our culture.</blockquote>
-                    <div class="byline">
-                      <strong>Dennis Crowley</strong><br>
-                      Co-founder, foursquare
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="medium-4 columns">
-                <div class="pic" style="background-image: url('web/img/people/dennis.jpg');"></div>
-              </div>
-              <div class="medium-1 columns"></div>
+          <div class="medium-6 columns">
+            <div class="col-padding">
+              <div class="step">2</div>
+              <p class="p">Subscription to our monthly list of curated events.</p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-<?php */ ?>
+      </section>
+      
+      <section id="volunteer-3" class="section">
+        <div class="row">
+          <h2 class="h2">How does volunteering work?</h2>
+        </div>
+        <div class="row programs">
+          <div class="medium-4 columns">
+            <div class="img-height">
+              <img src="web/content/img/icons/partner.png" id="partner-img">
+            </div>
+            <div class="col-padding">
+              <h4 class="h4">We develop partnerships with great non-profits</h4>
+            </div>
+          </div>
+          <div class="medium-4 columns">
+            <div class="img-height">
+              <img src="web/content/img/icons/events.png">
+            </div>
+            <div class="col-padding">
+              <h4 class="h4">Your company can signup to attend 2 volunteering events per year</h4>
+            </div>
+          </div>
+          <div class="medium-4 columns">
+            <div class="img-height">
+              <img src="web/content/img/icons/volunteer.png">
+            </div>
+            <div class="col-padding">
+              <h4 class="h4">Employees signup to volunteer on a first come first serve basis</h4>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section id="homepage-5">
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="circle-hdr">How It Works</div>
-        </div>
-      </div>
-      <div class="row programs">
-        <div class="medium-4 columns">
-          <img src="web/img/section/homepage/giving-program.jpg" alt="Giving Program" class="full-width">
-          <div class="col-padding">
-            <h3>Giving Program</h3>
-            <p>Employees donate directly from their paycheck to the charity of their choice.</p>
-            <a href="/workplace-giving/" class="button show-for-small-only">Learn More</a>
-          </div>
-        </div>
-        <div class="medium-4 columns">
-          <img src="web/img/section/homepage/education.jpg" alt="Education" class="full-width">
-          <div class="col-padding">
-            <h3>Education</h3>
-            <p>We provide content around how to do diligence on organizations and curate causes.</p>
-            <a href="/education/" class="button show-for-small-only">Learn More</a>
-          </div>
-        </div>
-        <div class="medium-4 columns">
-          <img src="web/img/section/homepage/ambassadors.jpg" alt="Ambassadors" class="full-width">
-          <div class="col-padding">
-            <h3>Ambassadors</h3>
-            <p>We train teams within startups to communicate and roll out RaisedBy.Us in a way that's relevant for their company.</p>
-            <a href="/ambassadors/" class="button show-for-small-only">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="row program-buttons show-for-medium-up">
-        <div class="medium-4 columns">
-          <div class="col-padding">
-            <a href="/workplace-giving/" class="button">Learn More</a>
-          </div>
-        </div>
-        <div class="medium-4 columns">
-          <div class="col-padding">
-            <a href="/education/" class="button">Learn More</a>
-          </div>
-        </div>
-        <div class="medium-4 columns">
-          <div class="col-padding">
-            <a href="/ambassadors/" class="button">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="homepage-6">
-      <div class="row">
-        <div class="medium-12 columns">
-          <div class="flex-video widescreen youtube">
-            <iframe src="//www.youtube.com/embed/tpOBKpvnxV0?rel=0&showinfo=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+      <section id="homepage-7">
+        <div class="row">
+          <div class="large-12 columns">
+            <div class="circle-hdr">Pricing</div>
           </div>
         </div>
-      </div>
-    </section>
+        
+        <div class="row about">
+          <div class="large-6 columns">
+            <h3 class="h3">Small Company (10-50 employees)</h3>
+            <ul>
+              <li>2 Events with other startups (Max of 10 attendees)</li>
+              <li>Monthly volunteering opportunities</li>
+              <li>Community driven networking</li>
+            </ul>
+            <h3 class="h3">$2500</h3>
+          </div>
+          <div class="large-6 columns">
+            <h3 class="h3">Big Company (50-200 employees)</h3>
+            <ul>
+              <li>2 Events exclusively for your company (Max of 40 attendees)</li>
+              <li>Monthly volunteering opportunities</li>
+              <li>Community driven networking</li>
+            </ul>
+            <h3 class="h3">$5000</h3>
+          </div>
+        </div>
+      </section>
 
-    <section id="homepage-7">
-      <div class="row">
-        <div class="large-12 columns">
-          <div class="circle-hdr">Learn More</div>
-          <h3>Over 500 causes, including:</h3>
+      <section id="apply-form" class="section">
+        <div class="row">
+          <div class="large-6 large-offset-3 columns">
+            <h2 class="h2">Apply Today</h2>
+            <form class="form-styles">
+              <input type="text" name="company" value="Company Name" />
+              <input type="text" name="email" value="Email Address" />
+              <input type="text" name="employees" value="Number of Employees" />
+              <button href="/get-involved/" class="button">Submit Application</button>
+            </form>
+          </div>
         </div>
-      </div>
-      <div class="row charities">
-        <div class="medium-4 columns">
-          <img src="web/content/img/logos/charities/redcross.png" alt="American Red Cross">
-        </div>
-        <div class="medium-4 columns">
-          <img src="web/content/img/logos/charities/unicef.png" alt="UNICEF">
-        </div>
-        <div class="medium-4 columns">
-          <img src="web/content/img/logos/charities/cityofhope.png" alt="City of Hope">
-        </div>
-      </div>
-      <div class="row charities">
-        <div class="medium-4 columns">
-          <img src="web/content/img/logos/charities/earthshare.png" alt="EarthShare">
-        </div>
-        <div class="medium-4 columns">
-          <img src="web/content/img/logos/charities/donorschoose.png" alt="DonorsChoose.org">
-        </div>
-        <div class="medium-4 columns">
-          <img src="web/content/img/logos/charities/charitywater.png" alt="charity: water">
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns learn-button">
-          <a href="/causes/" class="button">See All</a>
-        </div>
-      </div>
-      <div class="row about">
-        <div class="large-6 columns">
-          <h3>About RaisedBy.Us</h3>
-          <p>TechiesGiveBack mobilizes the NY Tech community to help others. Since we launched in December 2009, we've raised over $100,000 for causes across North America. We are currently developing new, scalable ideas for the tech community to give back. We focus on education, tech, and local NY-based charities.</p>
-        </div>
-        <div class="large-6 columns">
-          <h3>Why Workplace Giving</h3>
-          <p>TechiesGiveBack is committed to making the biggest possible impact on the largest number of causes. We also want to ensure that we create programs which allow folks in the tech community to give whatever they can afford.</p>
-          <p>After doing our research, we found the answer in workplace giving: it's scalable, cost efficient, and allows techies to give as much or as little as they like. Workplace giving programs are commonplace among established tech organizations. We're just bringing those same benefits to our own tech community.</p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
     
     <footer>
       <div class="row">

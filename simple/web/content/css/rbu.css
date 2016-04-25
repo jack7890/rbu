@@ -227,6 +227,9 @@ footer .legal a:hover {
     text-transform: uppercase;
     font-weight: 900;
     margin: 0;
+    font-family: 'League Gothic';
+    font-size: 25px;
+    letter-spacing: 1.3px;
 }
 
 .button:hover {
@@ -564,6 +567,7 @@ section.notch:after {
 #workplace-giving-2 h3 {
     color: #719e9b;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 #workplace-giving-2 .icon {
@@ -579,7 +583,7 @@ section.notch:after {
     margin-bottom: 40px;
 }
 
-#workplace-giving-3 .step {
+.step {
     font-family: 'League Gothic';
     font-weight: normal;
     font-size: 22px;
@@ -595,12 +599,18 @@ section.notch:after {
     text-align: center;
     vertical-align: center;
     color: #fff;
+    margin: 0 auto 10px;
 }
 
 #workplace-giving-3 h3 {
     color: #e63600;
     height: 75px;
+    text-align: center;
 }
+#workplace-giving-3 p {
+    text-align: center;    
+} 
+
 
 /* Education **********************/
 
@@ -899,6 +909,118 @@ section.notch:after {
     line-height: 140%;
 }
 
+/* Volunteer Page **********************/
+
+.volunteer { 
+    text-align: center;
+}
+
+.volunteer ul {
+    text-align: left;
+}
+
+#volunteer-1 {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#volunteer-1 h2 {
+    color: white;
+}
+
+#volunteer-1 button {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+#apply-form {
+    border-bottom: 1px solid #eee;
+}
+
+form.form-styles input {
+    border: 1px solid #e5e5e5;
+    border-radius: 1px;
+    margin-bottom: 20px;
+    background: #fff;
+    color: #555;
+    box-shadow: none;
+    padding: 1.5rem 1rem;
+    font-weight: lighter;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+form.form-styles input:focus {
+    outline: none;
+}
+
+form.form-styles button {
+    margin-top: 20px;
+}
+
+#volunteer-1 {
+    background-image: url('../img/section/Volunteer-time/give-time-bg.jpg');
+    padding: 20% 0 60px;
+}
+
+#volunteer-3 {
+    background-image: url('../img/section/homepage/river-blur.jpg');
+}
+
+#volunteer-3 img {
+    width: 20%;
+}
+
+.section {
+    padding: 7% 0;
+}
+
+.img-height {
+    height: 70px;
+    margin: 20px 0 10px;
+}
+
+#pricing {
+
+}
+
+#partner-img {
+    margin-top: 7%;
+}
+h4.h4 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+h3.h3 {
+    font-family: 'League Gothic';
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    color: #203a40;
+    text-align: center;
+}
+    
+h5.h5 {
+    font-family: 'League Gothic';
+    font-weight: normal;
+    font-size: 32px;
+    color: #719e9b;
+    text-align: center;
+}
+
+h2.h2 {
+    margin-bottom: 30px;
+}
+
+p.p {
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
 /* Privacy Policy **********************/
 
 #privacy-1 h2 {
@@ -984,7 +1106,7 @@ ul.off-canvas-list li a {
         margin-bottom: 30px;
     }
 
-    #workplace-giving-3 div.step {
+    .step {
         float: left;
         margin-right: 15px;
     }
