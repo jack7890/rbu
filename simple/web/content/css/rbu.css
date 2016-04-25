@@ -476,7 +476,7 @@ section.notch:after {
 
 #homepage-7 {
     background-image: url('../img/section/homepage/midtown-teal80.jpg');
-    padding: 60px 0 120px;
+    padding: 60px 0 80px;
     color: #fff;
 }
 
@@ -926,6 +926,7 @@ section.notch:after {
 
 #volunteer-1 h2 {
     color: white;
+    margin-bottom: 40px;
 }
 
 #volunteer-1 button {
@@ -935,6 +936,23 @@ section.notch:after {
 
 #apply-form {
     border-bottom: 1px solid #eee;
+}
+
+#pricing h2.h2 {
+    text-align: left;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+#pricing h4.h4 {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+#pricing h3 {
+    margin-top: 10px;
 }
 
 form.form-styles input {

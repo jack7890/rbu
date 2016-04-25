@@ -75,9 +75,8 @@
       <section id="volunteer-1" class="first notch">
         <div class="row">
           <div class="large-8 large-offset-2 columns">
-            <h5 class="h5">Your company has a lot to give.</h5>
             <h2 class="h2">
-               We make volunteering easy for you and your employees.
+               We make volunteering easy for you and your employees
             </h2>
           </div>
         <div class="row">
@@ -90,20 +89,20 @@
       <section id="volunteer-2" class="section">
         <div class="row">
           <div class="large-8 large-offset-2 columns">
-            <h2 class="h2">No time to organize volunteer opportunities for your team?</h2>
-            <h4 class="h4">The RaisedBy.Us Volunteer Program does the work for you. The annual subscription includes:</h4>
+            <h2 class="h2">Want to offer volunteer opportunities to your team, but don't have the time to organize them?</h2>
+            <h5 class="h5">The RaisedBy.Us Volunteer Program does the work for you. <br> The annual subscription includes:</h5>
           </div>
         <div class="row programs">
           <div class="medium-6 columns">
             <div class="col-padding">
               <div class="step">1</div>
-              <p class="p">Access to specially created events, where your employees will do good and meet other startups.</p>
+              <h4 class="h4">Access to specially created events, where your employees will do good and meet other startups.</h4>
             </div>
           </div>
           <div class="medium-6 columns">
             <div class="col-padding">
               <div class="step">2</div>
-              <p class="p">Subscription to our monthly list of curated events.</p>
+              <h4 class="h4">Subscription to our monthly list of curated events.</h4>
             </div>
           </div>
         </div>
@@ -149,9 +148,10 @@
           </div>
         </div>
         
-        <div class="row about">
+        <div class="row about" id="pricing">
           <div class="large-6 columns">
-            <h3 class="h3">Small Company (10-50 employees)</h3>
+            <h2 class="h2">Small Company</h2>
+            <h4 class="h4">(10-50 employees)</h4>
             <ul>
               <li>2 Events with other startups (Max of 10 attendees)</li>
               <li>Monthly volunteering opportunities</li>
@@ -160,7 +160,8 @@
             <h3 class="h3">$2500</h3>
           </div>
           <div class="large-6 columns">
-            <h3 class="h3">Big Company (50-200 employees)</h3>
+            <h2 class="h2">Big Company</h2>
+            <h4 class="h4">(50-200 employees)</h4>
             <ul>
               <li>2 Events exclusively for your company (Max of 40 attendees)</li>
               <li>Monthly volunteering opportunities</li>
