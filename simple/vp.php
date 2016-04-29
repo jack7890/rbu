@@ -81,7 +81,7 @@
           </div>
         <div class="row">
           <div class="medium-6 medium-offset-3 columns top-input">
-            <button href="/get-involved/" class="button">Apply Now</button>
+            <button href="/get-involved/" class="button" id="top-apply-button">Apply Now</button>
           </div>
         </div>
       </section>
@@ -175,11 +175,11 @@
       <section id="apply-form" class="section">
         <div class="row">
           <div class="large-6 large-offset-3 columns">
-            <h2 class="h2">Apply Today</h2>
+            <h2 class="h2" id="application">Apply Today</h2>
             <form class="form-styles">
-              <input type="text" name="company" value="Company Name" />
-              <input type="text" name="email" value="Email Address" />
-              <input type="text" name="employees" value="Number of Employees" />
+              <input type="text" name="company" placeholder="Company Name" />
+              <input type="text" name="email" placeholder="Email Address" />
+              <input type="text" name="employees" placeholder="Number of Employees" />
               <button href="/get-involved/" class="button">Submit Application</button>
             </form>
           </div>
@@ -205,8 +205,9 @@
     </div>
     </div>
 
-    <script src="content/web/js/vendor/jquery.js"></script>
-    <script src="content/web/js/foundation.min.js"></script>
+    <script src="web/content/js/vendor/jquery.js"></script>
+    <script src="web/content/js/foundation.min.js"></script>
+    <script src="web/content/js/volunteer.js"></script>
     <script>
       $(document).foundation();
     </script>
