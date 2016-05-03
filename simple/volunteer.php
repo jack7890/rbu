@@ -176,12 +176,17 @@
         <div class="row">
           <div class="large-6 large-offset-3 columns">
             <h2 class="h2" id="application">Apply Today</h2>
-            <form class="form-styles">
+            <form class="form-styles" id="application-form">
+              <div id="form-errors" style="display: none;">
+              </div>
               <input type="text" name="company" placeholder="Company Name" />
               <input type="text" name="email" placeholder="Email Address" />
               <input type="text" name="employees" placeholder="Number of Employees" />
-              <button href="/get-involved/" class="button">Submit Application</button>
+              <button href="#" class="button" id="submit-application">Submit Application</button>
             </form>
+            <div id="success-message" style="display: none;">
+              <h3>Thanks! Your appplication has been submitted. We'll be in touch shortly.</h3>
+            </div>
           </div>
         </div>
       </section>
@@ -207,7 +212,10 @@
 
     <script src="web/content/js/vendor/jquery.js"></script>
     <script src="web/content/js/foundation.min.js"></script>
+    
+    <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
     <script src="web/content/js/volunteer.js"></script>
+
     <script>
       $(document).foundation();
     </script>
